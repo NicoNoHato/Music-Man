@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project)
+i# Daisyxmusic (Telegram bot project)
 # Copyright (C) 2021  Inukaasith
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -124,12 +124,12 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     img = Image.open("temp.png")
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("etc/font.otf", 32)
-    draw.text((205, 550), f"Title: {title}", (51, 215, 255), font=font)
-    draw.text((205, 590), f"Duration: {duration}", (255, 255, 255), font=font)
-    draw.text((205, 630), f"Views: {views}", (255, 255, 255), font=font)
+    draw.text((255, 550), f"Judul: {title}", (51, 215, 255), font=font)
+    draw.text((255, 590), f"Durasi: {duration}", (255, 255, 255), font=font)
+    draw.text((255, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
-        (205, 670),
-        f"Added By: {requested_by}",
+        (255, 670),
+        f"Ditambah Oleh: {requested_by}",
         (255, 255, 255),
         font=font,
     )
